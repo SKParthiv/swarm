@@ -1,0 +1,1 @@
+"""Swarm information-threshold experiments."""

@@ -1,0 +1,22 @@
+environment:
+  max_cycles: 150
+  continuous_actions: false
+
+swarm:
+  n_agents: 3
+  n_landmarks: 3
+
+throttle:
+  keep_velocity: false
+  quantization_bits: 8
+  value_range: 2.0
+  update_interval: 5
+
+consensus:
+  gain: 0.45
+  neighbor_radius: 0.8
+  repulsion_gain: 0.35
+
+experiment:
+  episodes: 5
+  seed: 7
