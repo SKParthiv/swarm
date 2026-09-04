@@ -1,22 +1,76 @@
 from __future__ import annotations
 
 import argparse
-from dataclasses import asdict
+from dataclasses import asdict, dataclass
+from pathlib import Path
+from typing import Any
 
-from pettingzoo.mpe import simple_spread_v3
+import yaml
 
-from swarm.level1.config import load_config
-from swarm.level1.observation_throttle import (
-    ObservationThrottleConfig,
-    ThrottledObservationAdapter,
-    estimate_effective_bps,
-)
-from swarm.level1.policies import (
-    BlindGreedyPolicy,
-    DynamicAverageConsensusPolicy,
-    OracleAssignerPolicy,
-    PolicyContext,
-)
+from swarm.env.simple_spread_v0 import parallel_env
+from swarm.policies import BlindGreedyPolicy, DynamicAverageConsensusPolicy, OracleAssignerPolicy, PolicyContext
+from swarm.throttling import ObservationThrottleConfig, estimate_effective_bps
+
+
+@dataclass
+class EnvironmentConfig:
+    max_cycles: int = 150
+    continuous_actions: bool = False
+
+
+@dataclass
+class SwarmConfig:
+    n_agents: int = 3
+    n_landmarks: int = 3
+
+
+@dataclass
+class ThrottleConfig:
+    keep_velocity: bool = False
+    quantization_bits: int = 8
+    value_range: float = 2.0
+    update_interval: int = 5
+
+
+@dataclass
+class ConsensusConfig:
+    gain: float = 0.45
+    neighbor_radius: float = 0.8
+    repulsion_gain: float = 0.35
+
+
+@dataclass
+class ExperimentConfig:
+    episodes: int = 5
+    seed: int = 7
+
+
+@dataclass
+class Level1Config:
+    environment: EnvironmentConfig
+    swarm: SwarmConfig
+    throttle: ThrottleConfig
+    consensus: ConsensusConfig
+    experiment: ExperimentConfig
+
+
+
+def _section(data: dict[str, Any], key: str, cls: type):
+    return cls(**data.get(key, {}))
+
+
+
+def load_config(path: str | Path) -> Level1Config:
+    with Path(path).open("r", encoding="utf-8") as file:
+        raw = yaml.safe_load(file) or {}
+
+    return Level1Config(
+        environment=_section(raw, "environment", EnvironmentConfig),
+        swarm=_section(raw, "swarm", SwarmConfig),
+        throttle=_section(raw, "throttle", ThrottleConfig),
+        consensus=_section(raw, "consensus", ConsensusConfig),
+        experiment=_section(raw, "experiment", ExperimentConfig),
+    )
 
 
 
@@ -59,15 +113,13 @@ def main() -> None:
     args = parser.parse_args()
 
     cfg = load_config(args.config)
-
-    base_env = simple_spread_v3.parallel_env(
-        N=cfg.swarm.n_agents,
+    throttle_cfg = ObservationThrottleConfig(**asdict(cfg.throttle))
+    env = parallel_env(
+        n_agents=cfg.swarm.n_agents,
         max_cycles=cfg.environment.max_cycles,
         continuous_actions=cfg.environment.continuous_actions,
+        throttle_config=throttle_cfg,
     )
-
-    throttle_cfg = ObservationThrottleConfig(**asdict(cfg.throttle))
-    env = ThrottledObservationAdapter(base_env, throttle_cfg)
 
     policy_context = PolicyContext(
         n_agents=cfg.swarm.n_agents,
@@ -102,8 +154,8 @@ def main() -> None:
             f"team_reward={result['team_reward']:.3f}, seed={seed}"
         )
 
-    avg_steps = sum(x["steps"] for x in metrics) / len(metrics)
-    avg_reward = sum(x["team_reward"] for x in metrics) / len(metrics)
+    avg_steps = sum(metric["steps"] for metric in metrics) / len(metrics)
+    avg_reward = sum(metric["team_reward"] for metric in metrics) / len(metrics)
     print(f"Average: steps={avg_steps:.2f}, team_reward={avg_reward:.3f}")
 
     env.close()

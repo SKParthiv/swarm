@@ -61,18 +61,28 @@ For Level 1:
 ```text
 swarm/
 ├── README.md
+├── pyproject.toml
 ├── requirements.txt
 ├── configs/
 │   └── level1_simple_spread.yaml
 └── src/
     └── swarm/
         ├── __init__.py
-        └── level1/
+        ├── env/
+        │   ├── __init__.py
+        │   └── simple_spread_v0.py
+        ├── policies/
+        │   ├── __init__.py
+        │   ├── blind_greedy.py
+        │   ├── oracle_assigner.py
+        │   └── dynamic_average_consensus.py
+        ├── throttling/
+        │   ├── __init__.py
+        │   ├── observation_filters.py
+        │   └── bitrate.py
+        └── experiments/
             ├── __init__.py
-            ├── config.py
-            ├── observation_throttle.py
-            ├── policies.py
-            └── runner.py
+            └── level1_runner.py
 ```
 
 ## Quick Start
@@ -86,14 +96,14 @@ swarm/
 2. Run Level 1 with the consensus policy:
 
    ```bash
-   python -m swarm.level1.runner --config configs/level1_simple_spread.yaml --policy consensus
+   python -m swarm.experiments.level1_runner --config configs/level1_simple_spread.yaml --policy consensus
    ```
 
 3. Run baseline anchors:
 
    ```bash
-   python -m swarm.level1.runner --config configs/level1_simple_spread.yaml --policy blind
-   python -m swarm.level1.runner --config configs/level1_simple_spread.yaml --policy oracle
+   python -m swarm.experiments.level1_runner --config configs/level1_simple_spread.yaml --policy blind
+   python -m swarm.experiments.level1_runner --config configs/level1_simple_spread.yaml --policy oracle
    ```
 
 ## Phase 2+ (Roadmap)
