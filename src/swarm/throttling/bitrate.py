@@ -10,6 +10,7 @@ def estimate_effective_bps(
     dropped_velocity_dims: int = 2,
     keep_velocity: bool = False,
 ) -> float:
+    bits = int(max(1, quantization_bits))
     effective_dim = obs_dim if keep_velocity else max(0, obs_dim - dropped_velocity_dims)
     hz = base_hz / max(1, update_interval)
-    return float(effective_dim * quantization_bits * n_agents * hz)
+    return float(effective_dim * bits * n_agents * hz)
