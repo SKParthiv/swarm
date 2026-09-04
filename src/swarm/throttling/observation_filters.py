@@ -40,6 +40,8 @@ class ThrottledObservationAdapter:
     def close(self):
         self.env.close()
 
+    def __getattr__(self, name: str):
+        return getattr(self.env, name)
     def _process(self, observations: dict[str, np.ndarray]) -> dict[str, np.ndarray]:
         processed: dict[str, np.ndarray] = {}
         refresh = self._step % max(1, self.config.update_interval) == 0
