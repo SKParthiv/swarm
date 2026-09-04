@@ -66,6 +66,12 @@ def nearest_landmark_index(landmarks_rel: np.ndarray) -> int:
 
 def optimal_assignment(agent_pos: np.ndarray, landmark_pos: np.ndarray) -> list[int]:
     n_agents = agent_pos.shape[0]
+    if n_agents > 8:
+        raise ValueError(
+            f"optimal_assignment uses factorial search; n_agents={n_agents} is too large. "
+            "Use a polynomial-time assignment algorithm (e.g., Hungarian) or reduce n_agents."
+        )
+
     indices = range(landmark_pos.shape[0])
     best = None
     best_cost = float("inf")
