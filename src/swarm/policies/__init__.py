@@ -123,9 +123,12 @@ def discrete_action_from_vector(vector: np.ndarray) -> int:
     return 4 if vy > 0 else 3
 
 
-from swarm.policies.blind_greedy import BlindGreedyPolicy
-from swarm.policies.dynamic_average_consensus import DynamicAverageConsensusPolicy
-from swarm.policies.oracle_assigner import OracleAssignerPolicy
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from swarm.policies.blind_greedy import BlindGreedyPolicy
+    from swarm.policies.dynamic_average_consensus import DynamicAverageConsensusPolicy
+    from swarm.policies.oracle_assigner import OracleAssignerPolicy
 
 __all__ = [
     "BasePolicy",
@@ -134,3 +137,21 @@ __all__ = [
     "OracleAssignerPolicy",
     "DynamicAverageConsensusPolicy",
 ]
+
+
+def __getattr__(name: str):
+    if name == "BlindGreedyPolicy":
+        from swarm.policies.blind_greedy import BlindGreedyPolicy as _BlindGreedyPolicy
+
+        return _BlindGreedyPolicy
+    if name == "DynamicAverageConsensusPolicy":
+        from swarm.policies.dynamic_average_consensus import (
+            DynamicAverageConsensusPolicy as _DynamicAverageConsensusPolicy,
+        )
+
+        return _DynamicAverageConsensusPolicy
+    if name == "OracleAssignerPolicy":
+        from swarm.policies.oracle_assigner import OracleAssignerPolicy as _OracleAssignerPolicy
+
+        return _OracleAssignerPolicy
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
