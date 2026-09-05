@@ -193,6 +193,101 @@ Only explain design reasoning when:
 - the user asks for the reasoning
 - an important limitation must be communicated
 
+Readability and Maintainability
+
+Readable, maintainable code is a default requirement.
+
+Unless the user explicitly asks otherwise, optimize code for human understanding in addition to correctness and performance.
+
+Prefer:
+
+- clear and descriptive names
+- simple control flow
+- logical decomposition
+- small, focused functions
+- consistent formatting
+- obvious data flow
+- explicit behavior over clever tricks
+- meaningful abstractions
+- consistent project conventions
+
+Do not sacrifice readability merely to reduce lines of code.
+
+Do not use unnecessarily clever, compressed, or cryptic implementations.
+
+Avoid deeply nested logic when it can be expressed more clearly.
+
+Prefer code that another developer can understand without reconstructing the author's intent.
+
+Comments
+
+Commenting important code is expected by default.
+
+Add comments when they improve understanding of:
+
+- non-obvious logic
+- algorithms
+- important design decisions
+- assumptions
+- constraints
+- hardware or platform-specific behavior
+- concurrency
+- synchronization
+- networking
+- numerical calculations
+- unusual workarounds
+- failure handling
+- interactions with external systems
+- code whose purpose is not immediately obvious
+
+Comments should explain why something is done when the reason is not obvious from the code.
+
+Do not add useless comments that merely translate code into English.
+
+Prefer:
+
+// Keep the previous command for one cycle so the controller does not
+// interpret a temporary communication gap as an intentional stop.
+
+over:
+
+// Keep previous command.
+
+For complex functions or important modules, use a short documentation comment or docstring describing:
+
+- purpose
+- important inputs/outputs
+- significant assumptions
+- important side effects
+
+Do not excessively comment trivial code.
+
+Documentation Through Code
+
+Code should communicate its intent through structure and naming first.
+
+Use comments to supplement readability, not compensate for unreadable code.
+
+If a section requires a long explanation to understand, first consider whether the code itself should be simplified or decomposed.
+
+Code Quality
+
+Generated or modified code should:
+
+- follow existing repository conventions
+- use clear names
+- be readable without unnecessary mental reconstruction
+- contain appropriate comments and documentation
+- avoid unnecessary complexity
+- preserve existing interfaces unless modification is required
+- handle relevant errors
+- avoid duplicated logic
+- avoid unnecessary comments that add no information
+
+When readability and a minor reduction in code size conflict, prefer readability unless the user explicitly prioritizes compactness.
+
+When performance optimization conflicts with readability, preserve readability unless performance is an explicit requirement or measurement demonstrates that the optimization is necessary.
+
 Research
 
 Do not perform broad external research for ordinary repository tasks.
@@ -248,20 +343,6 @@ Do not spend excessive tokens or execution time validating unrelated parts of th
 If validation cannot be performed, state that clearly.
 
 Never claim that something was tested when it was not.
-
-Code Quality
-
-Generated or modified code should:
-
-- follow existing repository conventions
-- use clear names
-- avoid unnecessary complexity
-- preserve existing interfaces unless modification is required
-- handle relevant errors
-- avoid duplicated logic
-- avoid unnecessary comments
-
-Comments should explain non-obvious reasoning, constraints, or behavior rather than restating the code.
 
 Documentation Tasks
 
@@ -363,4 +444,4 @@ Avoid spending tokens on information already available in the repository.
 
 The goal is not merely short responses.
 
-The goal is maximum useful work per interaction.
+The goal is maximum useful work per interaction while maintaining correctness, readability, and maintainability.
