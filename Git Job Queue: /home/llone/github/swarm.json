@@ -1,0 +1,572 @@
+{
+  "summary": {
+    "pending": 0,
+    "running": 0,
+    "finished": 28,
+    "skipped": 0
+  },
+  "entries": [
+    {
+      "id": 0,
+      "description": "default_branch",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "4ms",
+      "run_time": "139ms"
+    },
+    {
+      "id": 1,
+      "description": "open_commit_buffer",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "143ms",
+      "run_time": "25ms"
+    },
+    {
+      "id": 2,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "169ms",
+      "run_time": "3ms"
+    },
+    {
+      "id": 3,
+      "description": "access",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "111ms",
+      "run_time": "5us"
+    },
+    {
+      "id": 4,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "111ms",
+      "run_time": "3ms"
+    },
+    {
+      "id": 5,
+      "description": "open_commit_buffer",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "32ms",
+      "run_time": "515us"
+    },
+    {
+      "id": 6,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "19h ago",
+      "wait_time": "34ms",
+      "run_time": "8ms"
+    },
+    {
+      "id": 7,
+      "description": "file_history_changed_files",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "4ms",
+      "run_time": "228us"
+    },
+    {
+      "id": 8,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "347us",
+      "run_time": "10ms"
+    },
+    {
+      "id": 9,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "1ms",
+      "run_time": "20ms"
+    },
+    {
+      "id": 10,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "3ms",
+      "run_time": "255ms"
+    },
+    {
+      "id": 11,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "2ms",
+      "run_time": "41ms"
+    },
+    {
+      "id": 12,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "122us",
+      "run_time": "8ms"
+    },
+    {
+      "id": 13,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "2ms",
+      "run_time": "16ms"
+    },
+    {
+      "id": 14,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "87us",
+      "run_time": "3ms"
+    },
+    {
+      "id": 15,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "14h ago",
+      "wait_time": "1ms",
+      "run_time": "19ms"
+    },
+    {
+      "id": 16,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "2ms",
+      "run_time": "61ms"
+    },
+    {
+      "id": 17,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "3ms",
+      "run_time": "31ms"
+    },
+    {
+      "id": 18,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "206us",
+      "run_time": "5ms"
+    },
+    {
+      "id": 19,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "2ms",
+      "run_time": "30ms"
+    },
+    {
+      "id": 20,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "2ms",
+      "run_time": "15ms"
+    },
+    {
+      "id": 21,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "2ms",
+      "run_time": "13ms"
+    },
+    {
+      "id": 22,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "2ms",
+      "run_time": "19ms"
+    },
+    {
+      "id": 23,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "13h ago",
+      "wait_time": "3ms",
+      "run_time": "14ms"
+    },
+    {
+      "id": 24,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "4m ago",
+      "wait_time": "2ms",
+      "run_time": "25ms"
+    },
+    {
+      "id": 25,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "3m ago",
+      "wait_time": "480us",
+      "run_time": "13ms"
+    },
+    {
+      "id": 26,
+      "description": "load_commit_template_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "2m ago",
+      "wait_time": "289us",
+      "run_time": "4ms"
+    },
+    {
+      "id": 27,
+      "description": "load_committed_text",
+      "key": null,
+      "status": "Finished",
+      "enqueued": "2m ago",
+      "wait_time": "4ms",
+      "run_time": "19ms"
+    }
+  ],
+  "runtime_diagnostics": {
+    "processes": {
+      "zed_pid": 29192,
+      "descendant_count": 18,
+      "descendants": [
+        {
+          "pid": 23848,
+          "ppid": 29192,
+          "name": "OpenConsole.exe",
+          "exe": "C:\\Users\\parth\\AppData\\Local\\Programs\\Zed\\x64\\OpenConsole.exe",
+          "cmd": [
+            "C:\\Users\\parth\\AppData\\Local\\Programs\\Zed\\x64\\OpenConsole.exe",
+            "--headless",
+            "--width",
+            "100",
+            "--height",
+            "6",
+            "--signal",
+            "0x1138",
+            "--server",
+            "0x10dc"
+          ],
+          "status": "Run",
+          "run_time_secs": 68231
+        },
+        {
+          "pid": 6524,
+          "ppid": 29192,
+          "name": "powershell.exe",
+          "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "cmd": [
+            "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "-C",
+            "wsl.exe --distribution Ubuntu --cd /home/llone/github/swarm -- /bin/bash -i -c 'exec env ''SHELL=/bin/bash'' ''LESSOPEN=| /usr/bin/lesspipe %s'' ''ZED_ENVIRONMENT=worktree-shell'' ''SHLVL=1'' ''OLDPWD=/home/llone'' ''WSL_DISTRO_NAME=Ubuntu'' ''USER=llone'' ''WAYLAND_DISPLAY=wayland-0'' ''HOSTTYPE=x86_64'' ''XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop'' ''LOGNAME=llone'' ''TERM=xterm-256color'' ''PATH=/home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/parth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/parth/AppData/Local/Programs/Zed/bin:/snap/bin'' ''WSL2_GUI_APPS_ENABLED=1'' ''_=/home/llone/.zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475'' ''DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus'' ''PULSE_SERVER=unix:/mnt/wslg/PulseServer'' ''HOME=/home/llone'' ''WSL_INTEROP=/run/WSL/3900_interop'' ''PWD=/home/llone/github/swarm'' ''LESSCLOSE=/usr/bin/lesspipe %s %s'' ''LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:'' ''LANG=C.UTF-8'' ''WSLENV='' ''XDG_RUNTIME_DIR=/run/user/1000'' ''DISPLAY=:0'' ''NAME=LLOnE'' /home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin/node /home/llone/.local/share/zed/external_agents/registry/npx/github-copilot-cli/node_modules/@github/copilot/npm-loader.js --acp'"
+          ],
+          "status": "Run",
+          "run_time_secs": 46381
+        },
+        {
+          "pid": 21584,
+          "ppid": 29192,
+          "name": "copilot-language-server.exe",
+          "exe": "C:\\Users\\parth\\AppData\\Local\\Zed\\copilot\\node_modules\\@github\\copilot-language-server-win32-x64\\copilot-language-server.exe",
+          "cmd": [
+            "C:\\Users\\parth\\AppData\\Local\\Zed\\copilot\\node_modules\\@github\\copilot-language-server-win32-x64\\copilot-language-server.exe",
+            "--stdio"
+          ],
+          "status": "Run",
+          "run_time_secs": 66884
+        },
+        {
+          "pid": 17680,
+          "ppid": 29192,
+          "name": "wsl.exe",
+          "exe": "C:\\Windows\\System32\\wsl.exe",
+          "cmd": [
+            "wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "~",
+            "--exec",
+            "env",
+            ".zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475",
+            "proxy",
+            "--identifier",
+            "workspace-4"
+          ],
+          "status": "Run",
+          "run_time_secs": 68611
+        },
+        {
+          "pid": 23692,
+          "ppid": 29192,
+          "name": "wsl.exe",
+          "exe": "C:\\Windows\\System32\\wsl.exe",
+          "cmd": [
+            "wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "/home/llone/github/swarm",
+            "--",
+            "/bin/bash",
+            "-i",
+            "-c",
+            "exec env 'ZED_ENVIRONMENT=worktree-shell' 'WSL_DISTRO_NAME=Ubuntu' 'WAYLAND_DISPLAY=wayland-0' 'XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop' 'WSL2_GUI_APPS_ENABLED=1' '_=/home/llone/.zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' 'WSL_INTEROP=/run/WSL/3900_interop' 'DISPLAY=:0' 'LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:' 'XDG_RUNTIME_DIR=/run/user/1000' 'NAME=LLOnE' 'OLDPWD=/home/llone' 'SHELL=/bin/bash' 'LESSOPEN=| /usr/bin/lesspipe %s' 'COLORTERM=truecolor' 'SHLVL=1' 'USER=llone' 'HOSTTYPE=x86_64' 'TERM=xterm-256color' 'LOGNAME=llone' 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/parth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/parth/AppData/Local/Programs/Zed/bin:/snap/bin' 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus' 'PULSE_SERVER=unix:/mnt/wslg/PulseServer' 'HOME=/home/llone' 'PWD=/home/llone/github/swarm' 'LESSCLOSE=/usr/bin/lesspipe %s %s' 'ZED_TERM=true' 'WSLENV=' 'LANG=C.UTF-8' 'TERM_PROGRAM=zed' 'TERM_PROGRAM_VERSION=1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' /bin/bash -l"
+          ],
+          "status": "Run",
+          "run_time_secs": 68231
+        },
+        {
+          "pid": 27652,
+          "ppid": 23692,
+          "name": "wsl.exe",
+          "exe": "C:\\Program Files\\WSL\\wsl.exe",
+          "cmd": [
+            "wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "/home/llone/github/swarm",
+            "--",
+            "/bin/bash",
+            "-i",
+            "-c",
+            "exec env 'ZED_ENVIRONMENT=worktree-shell' 'WSL_DISTRO_NAME=Ubuntu' 'WAYLAND_DISPLAY=wayland-0' 'XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop' 'WSL2_GUI_APPS_ENABLED=1' '_=/home/llone/.zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' 'WSL_INTEROP=/run/WSL/3900_interop' 'DISPLAY=:0' 'LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:' 'XDG_RUNTIME_DIR=/run/user/1000' 'NAME=LLOnE' 'OLDPWD=/home/llone' 'SHELL=/bin/bash' 'LESSOPEN=| /usr/bin/lesspipe %s' 'COLORTERM=truecolor' 'SHLVL=1' 'USER=llone' 'HOSTTYPE=x86_64' 'TERM=xterm-256color' 'LOGNAME=llone' 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/parth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/parth/AppData/Local/Programs/Zed/bin:/snap/bin' 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus' 'PULSE_SERVER=unix:/mnt/wslg/PulseServer' 'HOME=/home/llone' 'PWD=/home/llone/github/swarm' 'LESSCLOSE=/usr/bin/lesspipe %s %s' 'ZED_TERM=true' 'WSLENV=' 'LANG=C.UTF-8' 'TERM_PROGRAM=zed' 'TERM_PROGRAM_VERSION=1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' /bin/bash -l"
+          ],
+          "status": "Run",
+          "run_time_secs": 68231
+        },
+        {
+          "pid": 23100,
+          "ppid": 27652,
+          "name": "wslhost.exe",
+          "exe": "C:\\Program Files\\WSL\\wslhost.exe",
+          "cmd": [
+            "",
+            "--distro-id",
+            "{cd2e5462-efeb-4768-83d7-3459e1fe7510}",
+            "--vm-id",
+            "{a2e387cd-7dae-4be8-b432-92899bc5f3aa}",
+            "--handle",
+            "788",
+            "--event",
+            "764",
+            "--parent",
+            "800"
+          ],
+          "status": "Run",
+          "run_time_secs": 68231
+        },
+        {
+          "pid": 30896,
+          "ppid": 23100,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 68231
+        },
+        {
+          "pid": 3896,
+          "ppid": 17680,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 68611
+        },
+        {
+          "pid": 30164,
+          "ppid": 17680,
+          "name": "wsl.exe",
+          "exe": "C:\\Program Files\\WSL\\wsl.exe",
+          "cmd": [
+            "wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "~",
+            "--exec",
+            "env",
+            ".zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475",
+            "proxy",
+            "--identifier",
+            "workspace-4"
+          ],
+          "status": "Run",
+          "run_time_secs": 68611
+        },
+        {
+          "pid": 3124,
+          "ppid": 30164,
+          "name": "wslhost.exe",
+          "exe": "C:\\Program Files\\WSL\\wslhost.exe",
+          "cmd": [
+            "",
+            "--distro-id",
+            "{cd2e5462-efeb-4768-83d7-3459e1fe7510}",
+            "--vm-id",
+            "{a2e387cd-7dae-4be8-b432-92899bc5f3aa}",
+            "--handle",
+            "760",
+            "--event",
+            "784",
+            "--parent",
+            "788"
+          ],
+          "status": "Run",
+          "run_time_secs": 68611
+        },
+        {
+          "pid": 30804,
+          "ppid": 3124,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 68611
+        },
+        {
+          "pid": 29012,
+          "ppid": 21584,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 66884
+        },
+        {
+          "pid": 23916,
+          "ppid": 6524,
+          "name": "wsl.exe",
+          "exe": "C:\\Windows\\System32\\wsl.exe",
+          "cmd": [
+            "C:\\windows\\system32\\wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "/home/llone/github/swarm",
+            "--",
+            "/bin/bash",
+            "-i",
+            "-c",
+            "exec env 'SHELL=/bin/bash' 'LESSOPEN=| /usr/bin/lesspipe %s' 'ZED_ENVIRONMENT=worktree-shell' 'SHLVL=1' 'OLDPWD=/home/llone' 'WSL_DISTRO_NAME=Ubuntu' 'USER=llone' 'WAYLAND_DISPLAY=wayland-0' 'HOSTTYPE=x86_64' 'XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop' 'LOGNAME=llone' 'TERM=xterm-256color' 'PATH=/home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/parth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/parth/AppData/Local/Programs/Zed/bin:/snap/bin' 'WSL2_GUI_APPS_ENABLED=1' '_=/home/llone/.zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus' 'PULSE_SERVER=unix:/mnt/wslg/PulseServer' 'HOME=/home/llone' 'WSL_INTEROP=/run/WSL/3900_interop' 'PWD=/home/llone/github/swarm' 'LESSCLOSE=/usr/bin/lesspipe %s %s' 'LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:' 'LANG=C.UTF-8' 'WSLENV=' 'XDG_RUNTIME_DIR=/run/user/1000' 'DISPLAY=:0' 'NAME=LLOnE' /home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin/node /home/llone/.local/share/zed/external_agents/registry/npx/github-copilot-cli/node_modules/@github/copilot/npm-loader.js --acp"
+          ],
+          "status": "Run",
+          "run_time_secs": 46380
+        },
+        {
+          "pid": 34524,
+          "ppid": 6524,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 46381
+        },
+        {
+          "pid": 21168,
+          "ppid": 23916,
+          "name": "wsl.exe",
+          "exe": "C:\\Program Files\\WSL\\wsl.exe",
+          "cmd": [
+            "C:\\windows\\system32\\wsl.exe",
+            "--distribution",
+            "Ubuntu",
+            "--cd",
+            "/home/llone/github/swarm",
+            "--",
+            "/bin/bash",
+            "-i",
+            "-c",
+            "exec env 'SHELL=/bin/bash' 'LESSOPEN=| /usr/bin/lesspipe %s' 'ZED_ENVIRONMENT=worktree-shell' 'SHLVL=1' 'OLDPWD=/home/llone' 'WSL_DISTRO_NAME=Ubuntu' 'USER=llone' 'WAYLAND_DISPLAY=wayland-0' 'HOSTTYPE=x86_64' 'XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop' 'LOGNAME=llone' 'TERM=xterm-256color' 'PATH=/home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/parth/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/parth/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/parth/AppData/Local/Programs/Zed/bin:/snap/bin' 'WSL2_GUI_APPS_ENABLED=1' '_=/home/llone/.zed_server/zed-remote-server-stable-1.18.0+stable.351.49448afcab82f219b0ef4c58471cf81d23412475' 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus' 'PULSE_SERVER=unix:/mnt/wslg/PulseServer' 'HOME=/home/llone' 'WSL_INTEROP=/run/WSL/3900_interop' 'PWD=/home/llone/github/swarm' 'LESSCLOSE=/usr/bin/lesspipe %s %s' 'LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:' 'LANG=C.UTF-8' 'WSLENV=' 'XDG_RUNTIME_DIR=/run/user/1000' 'DISPLAY=:0' 'NAME=LLOnE' /home/llone/.local/share/zed/node/node-v24.11.0-linux-x64/bin/node /home/llone/.local/share/zed/external_agents/registry/npx/github-copilot-cli/node_modules/@github/copilot/npm-loader.js --acp"
+          ],
+          "status": "Run",
+          "run_time_secs": 46380
+        },
+        {
+          "pid": 24140,
+          "ppid": 21168,
+          "name": "wslhost.exe",
+          "exe": "C:\\Program Files\\WSL\\wslhost.exe",
+          "cmd": [
+            "",
+            "--distro-id",
+            "{cd2e5462-efeb-4768-83d7-3459e1fe7510}",
+            "--vm-id",
+            "{a2e387cd-7dae-4be8-b432-92899bc5f3aa}",
+            "--handle",
+            "744",
+            "--event",
+            "776",
+            "--parent",
+            "780"
+          ],
+          "status": "Run",
+          "run_time_secs": 46380
+        },
+        {
+          "pid": 32912,
+          "ppid": 24140,
+          "name": "conhost.exe",
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "cmd": [
+            "\\??\\C:\\windows\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "status": "Run",
+          "run_time_secs": 46380
+        }
+      ]
+    }
+  }
+}

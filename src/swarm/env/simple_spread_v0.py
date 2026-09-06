@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from pettingzoo.mpe import simple_spread_v3
+from mpe2 import simple_spread_v3
 from pettingzoo.utils.conversions import parallel_to_aec
 
 from swarm.throttling.observation_filters import ObservationThrottleConfig, ThrottledObservationAdapter
