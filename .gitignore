@@ -1,3 +1,33 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Testing & type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.zed/
+Git Job Queue*
+
+# OS files
+.DS_Store
+Thumbs.db
