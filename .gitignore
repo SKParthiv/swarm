@@ -18,6 +18,7 @@ build/
 .ruff_cache/
 .coverage
 htmlcov/
+junit*.xml
 
 # IDE / Editor artifacts
 .idea/

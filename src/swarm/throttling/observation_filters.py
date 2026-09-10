@@ -49,10 +49,10 @@ class ThrottledObservationAdapter:
         for agent, obs in observations.items():
             transformed = np.array(obs, dtype=np.float32, copy=True)
 
+            transformed = self._quantize(transformed)
+
             if not self.config.keep_velocity and transformed.size >= 2:
                 transformed[0:2] = 0.0
-
-            transformed = self._quantize(transformed)
 
             if refresh or agent not in self._cache:
                 self._cache[agent] = transformed
