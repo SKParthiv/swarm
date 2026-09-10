@@ -9,8 +9,14 @@ description = "Information throttling benchmarks for decentralized swarms"
 requires-python = ">=3.10"
 dependencies = [
   "numpy>=1.24",
-  "pettingzoo[mpe]>=1.24",
+  "pettingzoo>=1.24",
+  "mpe2>=1.1",
   "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
 ]
 
 [tool.setuptools]
@@ -18,3 +24,6 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

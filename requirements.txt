@@ -1,3 +1,4 @@
 numpy>=1.24
-pettingzoo[mpe]>=1.24
+pettingzoo>=1.24
+mpe2>=1.1
 PyYAML>=6.0
